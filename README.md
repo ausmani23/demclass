@@ -8,7 +8,7 @@ To replicate my work, you will need:
 
 1. R, a popular and free statistical software. I wrote these files in R 3.4.1, but it should be forwards-compatible (i.e., you should be able to run these if you download the current version). John Fox offers a [useful intro](https://socialsciences.mcmaster.ca/jfox/Courses/soc740/R-install-instructions.html), if you don't have prior experience. 
 2. Several additional packages, which don't come installed with R. If you run my scripts without installing these, R will throw an error noting that you haven't yet installed a required package. To make life easier, I have included a script 'installpacks.R'. This generates a list of all the packages I run and, if you un-comment out the last line, installs them. 
-3. Ghostscript, which I use for fancy fonts. For detailed instructions on how to install Ghostscript, see [this blogpost](http://blog.revolutionanalytics.com/2012/09/how-to-use-your-favorite-fonts-in-r-charts.html). Once you do this, open the file 'dirs.R' and make sure that 'gsdir_full' points to the directory that contains the Ghostscript executable. 
+3. Ghostscript, which I use for fancy fonts. For detailed instructions on how to install Ghostscript, see [this blogpost](http://blog.revolutionanalytics.com/2012/09/how-to-use-your-favorite-fonts-in-r-charts.html). Once you do this, open the file 'dirs.R' and make sure that 'gsdir_full' points to the directory that contains the Ghostscript executable. If you install GS in your 'Program Files' directory, you shouldn't need to change anything. (This applies to Windows computers.)
 
 ## What is in here?
 
