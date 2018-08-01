@@ -14,7 +14,7 @@ To run this code successfully, please follow the instructions below:
 
 Below I describe briefly describe what each file does, and which figures and tables it generates. Note that I don't explain which files must be run to generate the material in the supplementary appendix. This can be done by running all scripts sequentially (or by running '00_runall.R'), which will run everything from start to finish. 
 
-## Files Description
+## Script Description
 
 + 10_mainmods.R: Runs the democratization models reported in the main paper. 
 + 11_mainmods_graphs.R: Generates Figure 2 
