@@ -20,12 +20,12 @@ To replicate my work, you will need:
 
 To run this code successfully, please follow the instructions below:
 
-1. Before you run the scripts, load the code.Rproj file. This ensures that the default working directory is the "code" subfolder. Once that is set, everything should run smoothly. (Alternatively, you can set the working directory to the "code" subfolder yourself). 
-2. Additionally, before running anything, create a folder named "output" alongside "code", "files", and "meta". This is where all figures and tables will be saved by the scripts. 
-3. You will have to run the code sequentially (in order of filename). If you run a later file without having previously run an earlier file, the script will probably throw an error.  
+1. Create a folder named "output" alongside "code", "files", and "meta". This is where all figures and tables will be saved by the scripts. 
+2. Before you run the scripts, load the code.Rproj file. This ensures that the default working directory is the "code" subfolder. Once that is set, everything should run smoothly. (Alternatively, you can set the working directory to the "code" subfolder yourself). 
+3. Run the code sequentially (in order of filename). If you run a later file without having previously run an earlier file, the script will probably throw an error.  
 4.  Figures are output as .pdf's and tables as .csv's, but if you'd like a standalone .tex files (or .tex) fragments with the explanatory foototes, run 99_figures.R and 99_tables.R. 99_figures.R requires that there be a folder called 'upload' in the 'output' folder, to which it will copy all figures that I use in the paper and supplementary appendix
 
-Below I describe briefly describe what each file does, and which figures and tables it generates. Note that I don't explain which files must be run to generate the material in the supplementary appendix. This can be done by running all scripts sequentially (or by running '00_runall.R'), which will run everything from start to finish. 
+Below I describe briefly describe what each file does, and which of the main figures and tables it generates. Note that I don't explain which files must be run to generate the material in the supplementary appendix. This can be done by running all scripts sequentially (or by running '00_runall.R', which will run everything from start to finish).
 
 + 10_mainmods.R: Runs the democratization models reported in the main paper. 
 + 11_mainmods_graphs.R: Generates Figure 2 
