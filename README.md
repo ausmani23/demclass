@@ -1,6 +1,6 @@
 # Democracy and the Class Struggle
 
-This repository contains replication materials for the paper 'Democracy and the Class Struggle', forthcoming at the American Journal of Sociology. 
+This repository contains replication materials for the paper "Democracy and the Class Struggle", forthcoming at the *American Journal of Sociology*.
 
 ## What do you need? 
 
