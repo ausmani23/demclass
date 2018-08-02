@@ -13,8 +13,12 @@ To replicate my work, you will need:
 ## What is in here?
 
 + code: Contains all the R scripts that read data, run the models and generate output
-+ files: Contains the starting dataset and stores files
++ data: Contains the starting dataset
 + meta: Contains .csv's that some of the scripts consult, when running
++ files: Stores files created by the scripts, as they run
++ output: Stores output created by the scripts
+
+Both 'files' and 'output' are empty folders; if they don't exist already on your hard-drive, dirs.R will create them. 
 
 ## How to use it? 
 
