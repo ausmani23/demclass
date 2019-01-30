@@ -48,7 +48,7 @@ Below I describe briefly describe what each file does, and which of the main fig
 + 51_descriptive_graphs.R: Generates descriptive figures
 + 60_unitroots.R: Examines key series for unit root
 + 61_unitroots_output.R: Outputs results from unit root tests
-+ 99_figures.R: Creates .tex files and fragments for figures, with footnotes. To run this, make sure you create a subfolder named "upload" in the folder "output".
++ 99_figures.R: Creates .tex files and fragments for figures, with footnotes. 
 + 99_tables.R: Creates .tex files and fragments for tables, with footnotes
 
 NB: Scripts that are not numbered contain functions or other code that is called by one or more of these scripts.
