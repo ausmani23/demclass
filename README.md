@@ -28,8 +28,8 @@ To run this code successfully, please follow the instructions below:
 
 Below I describe briefly describe what each file does, and which of the main figures and tables it generates. Note that I don't explain which files must be run to generate the material in the supplementary appendix. This can be done by running all scripts sequentially (or by running '00_runall.R', which will run everything from start to finish).
 
++ !!\_quickreplicate.R: This runs the democratization models I focus on in the paper in much simpler code. If you don't want to reproduce all my output but just want to reproduce the main regression results and/or play around with the dataset, focus on this file. 
 + 10_mainmods.R: Runs the democratization models reported in the main paper. 
-+ 10_mainmods_simplified.R: This runs the two models I focus on in the write-up in much simpler code. If you don't want to reproduce all my output but just want to reproduce the main regression results and/or play around with the dataset, focus on this file. 
 + 11_mainmods_graphs.R: Generates Figure 2 
 + 12_mainmods_tables.R: Generates Tables 3 and 4
 + 14_robmods_main.R: Runs some robustness checks
