@@ -1,0 +1,77 @@
+%extra table w/ data deets
+
+\clearpage
+
+{\renewcommand{\arraystretch}{1.5}%
+    
+     \begin{longtable}{ 
+     | >{\raggedright}p{0.15\textwidth} 
+     | >{\raggedright}p{0.25\textwidth} 
+     | >{\raggedright}p{0.15\textwidth} 
+     | p{0.3\textwidth} |
+     }
+     	
+    \hline
+    
+	\textbf{Variable} & \textbf{Source} & \textbf{Coverage} & \textbf{Definition} \\ \hline
+	
+    Polity2 Score 
+    & PolityIV Project\footnote{http://www.systemicpeace.org/inscrdata.html}
+    & 1800-2014\footnote{This refers to the range available in the original dataset, or , where applicable, the range available by virtue of combining information across datasets}, 201 countries\footnote{`Countries' here refers to countries that I count as distinct, which does not always exactly correspond to the distinctions maintained in the original data. For example, I code East and West Pakistan (1947-1971) as distinct from either West Pakistan (1972-present) and East Pakistan (1972-present), but not all datasets follow suit.}
+    & Annual democracy scores for all sovereign countries on a twenty-one point scale (i.e., the Polity2 series).\\ 
+		\hline
+		
+		Electoral Democracy
+    & V-Dem Version 6.2\footnote{https://www.v-dem.net/en/data/data-version-6-2/}
+    & 1900-2015, 183 countries
+    & Annual measure of the extent of electoral democracy in a given country. A continuous measure between 0 and 1.\\
+		\hline
+    
+    Democracy (Binary)
+    & Boix, Miller and Rosato\footnote{https://sites.google.com/site/mkmtwo/data};  Cheibub, Gandhi and Vreeland\footnote{https://sites.google.com/site/joseantoniocheibub/datasets/democracy-and-dictatorship-revisited}; PolityIV Project
+    & 1800-2014, 230 countries 
+    & Annual democracy score for all countries on a binary scale. A country is coded as democratic when Boix and Cheibub agree. If this measure is missing, I treat a positive Polity2 score as indicating democracy. \\ \hline
+    
+    Disruptive Capacity
+    & Mitchell's International Historical Statistics, All Volumes\footnote{http://www.palgraveconnect.com/pc/archives/ihs.html}; International Labour Organization\footnote{http://www.ilo.org/ilostat}; Groningen Growth and Development Centre\footnote{http://www.rug.nl/research/ggdc/}; United Nations World Population Prospects\footnote{http://esa.un.org/unpd/wpp/DVD/}
+    & 1754-2012, 177 countries 
+    & The number of workers in manufacturing, mining, transport and construction as a proportion of the population aged 15 to 64. \\ \hline      
+        
+    Landlord Capacity
+    & Vanhanen's Democratization and Power Resources 2000\footnote{https://services.fsd.uta.fi/catalogue/FSD1216?study\_language=en}; Vanhenen's Index of Power Resources 2007\footnote{https://services.fsd.uta.fi/catalogue/FSD2420?lang=en}
+    & 1858-2007, 190 countries
+    & The product of the percentage of land not in the hand of family farmers and the proportion of the population still in agriculture. \\ \hline        
+    
+    GDP per capita
+    & The Maddison-Project\footnote{http://www.ggdc.net/maddison/maddison-project/home.htm}; Penn World Tables 8.1\footnote{http://www.rug.nl/research/ggdc/data/pwt/}
+    & 1 C.E.-2011, 192 countries 
+    & Gross Domestic Product per capita in 1990 1990 \$US, combined using algorithm to harmonize levels across the two sources. \\ \hline   
+    
+    Average Years of Education
+    & Century of Education, Morrisson and Murtin \footnote{By request}
+    & 1870-2010, 102 countries
+    & Average years of education obtained by those aged 15 to 64. \\ \hline    
+    
+		Big City Population
+    & Cross-National Time-Series Data Archive \footnote{http://www.cntsdata.com/}
+    & 1815-2002, 221 countries
+    & The per capita population living in cities of over 100,000 people. \\ \hline      
+    
+    Income Inequality
+    & Bourguignon and Morrison \footnote{By request}; SIID, Babones and Alvarez-Rivadulla\footnote{By request}; SWIID, Solt\footnote{http://myweb.uiowa.edu/fsolt/swiid/swiid.html}
+    & 1820-2013, 182 countries
+    & Income inequality as measured by the Gini coefficient (net of government taxes and transfers, where distinguishable). \\ \hline    
+    
+    Strike Frequency and Strike Volume
+    & Mitchell's International Historical Statistics, All Volumes\footnote{http://www.palgraveconnect.com/pc/archives/ihs.html}; International Labour Organization\footnote{http://www.ilo.org/ilostat}
+    & 1881-2008, 138 countries
+    & Strike frequency is the number of strikes (or lockouts) scaled by some measure of the size of the eligible population. Strike volume is the number of days lost to strikes scaled by the same measure. My preference is to use a measure of the working-age population. \\ \hline    
+    
+    Union Membership
+    & Visser's Historical Data\footnote{By request}; International Labour Organization\footnote{http://www.ilo.org/ilostat}; Visser's ICTWSS\footnote{http://www.uva-aias.net/207}
+    & 1885-2012, 59 countries
+    & The number of active union members scaled by some measure of the size of the eligible population. My preference is to use a measure of the working-age population. Data are combined across sources by using the same algorithm used to harmonize the GDP per capita data. I consider the ICTWSS to be the most reliable source. \\ \hline    
+    
+    \end{longtable}
+    
+} % end the array command

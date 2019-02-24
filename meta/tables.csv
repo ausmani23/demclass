@@ -1,0 +1,9 @@
+label,caption,divider,left,right,size,loc,order
+tab_labor,Indicators of Non-Elite Capacity,1,,1,normalsize,main,1
+tab_descriptive,Descriptive Statistics,1,1,"c(2,3,4)",normalsize,main,2
+tab_lrp2,"Long-Run Estimates, Polity2",1,1,,scriptsize,main,3
+tab_lrvp,"Long-Run Estimates, Electoral Democracy",1,1,,scriptsize,main,4
+tab_srp2,"Short-Run Estimates, Polity2",1,1,,scriptsize,app,5
+tab_srvp,"Short-Run Estimates, Electoral Democracy",1,1,,scriptsize,app,6
+tab_lrp2yrs,"Long-Run Estimates, Polity2 At Varying Interval",1,1,,scriptsize,app,7
+tab_lrvpyrs,"Long-Run Estimates, Electoral Democracy at Varying Interval",1,1,,scriptsize,app,8

@@ -1,0 +1,44 @@
+mname,propername,order,group,maindisplay
+pref,Preferred,1,NA,F
+liberal,Liberal (V-Dem),2,altdv,T
+deliberative,Deliberative (V-Dem),3,altdv,T
+participatory,Participatory (V-Dem),4,altdv,T
+egalitarian,Egalitarian (V-Dem),5,altdv,T
+hcaplf,DCAP (LF),6,DCAP,T
+hcappcap,DCAP (Pop),7,DCAP,T
+hcapgov,DCAP (w/ Govt),8,DCAP,T
+istatewar,War (Interstate),9,spec,T
+allwar,War (All Wars),9,spec,T
+wardeaths,War (Deaths),10,spec,T
+re,Random Effects,11,spec,T
+pooled,Pooled,12,spec,T
+nolag,No Lags,13,spec,T
+twolags,Two Lags,14,spec,T
+threelags,Three Lags,15,spec,T
+fourlags,Four Lags,16,spec,T
+disruptive_pref,DCAP Only (Pref. Sample),17,restricted,T
+landlords_pref,LAND Only (Pref. Sample),18,restricted,T
+socialforces_pref,Social Forces (Pref. Sample),19,restricted,T
+modernization_pref,Modernization (Pref. Sample),20,restricted,T
+inequality_pref,Inequality (Pref. Sample),21,restricted,F
+thresh0,Min N=0,22,threshold,T
+thresh10,Min N=10,23,threshold,T
+thresh20,Min N=20,24,threshold,T
+thresh30,Min N=30,25,threshold,T
+thresh40,Min N=40,26,threshold,T
+thresh50,Min N=50,27,threshold,T
+thresh60,Min N=60,28,threshold,T
+thresh70,Min N=70,29,threshold,T
+thresh80,Min N=80,30,threshold,T
+hcap2,DCAPxDCAP,31,mainint,F
+land2,LANDxLAND,32,mainint,F
+gdp2,GDPXGDP,33,mainint,F
+hcapXland,DCAPxLAND,34,mainint,F
+hcapXgdp,DCAPxGDP,35,mainint,F
+landXgdp,LANDxGDP,36,mainint,F
+hcapXgini,DCAPxGINI,37,mainint,F
+hcapXwar,DCAPxWAR,38,mainint,F
+landXgini,LANDxGINI,39,mainint,F
+landXwar,LANDxWAR,40,mainint,F
+gdpXgini,GDPXGINI,41,mainint,F
+gdpXwar,GDPxWAR,42,mainint,F

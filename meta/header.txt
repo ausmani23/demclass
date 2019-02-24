@@ -1,0 +1,10 @@
+\documentclass[]{article} 
+\usepackage[margin=0.8in]{geometry} 
+\usepackage{biblatex} 
+\usepackage{longtable}
+\usepackage{booktabs} 
+\usepackage{caption} 
+\captionsetup[table]{skip=10pt} 
+\usepackage[capposition=top]{floatrow}
+\usepackage{graphicx}
+\begin{document}

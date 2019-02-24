@@ -1,0 +1,62 @@
+varname,propername,order,type,class,modernization,disruptive,landlords,socialforces,inequality,main3,preferred,dcapbvrt,dcapfull
+countryname,Countryname,1,group,NA,F,F,F,F,F,F,F,F,F
+cowcode,Country Code (COW),2,group,NA,F,F,F,F,F,F,F,F,F
+cowcode.num,Country Code (Mine),3,group,NA,F,F,F,F,F,F,F,F,F
+region,Region,4,group,NA,F,F,F,F,F,F,F,F,F
+advanced,Advanced,5,group,NA,F,F,F,F,F,F,F,F,F
+year,Year,6,group,NA,F,F,F,F,F,F,F,F,F
+polity2,Polity2 Score,7,demdv,NA,F,F,F,F,F,F,F,F,F
+v2x_polyarchy,Electoral Democracy,8,demdv,NA,F,F,F,F,F,F,F,F,F
+v2x_liberal,Liberal Dimension,9,robdv,NA,F,F,F,F,F,F,F,F,F
+v2xdl_delib,Deliberative Dimension,10,robdv,NA,F,F,F,F,F,F,F,F,F
+v2x_partip,Participatory Dimension,11,robdv,NA,F,F,F,F,F,F,F,F,F
+v2x_egal,Egalitarian Dimension,12,robdv,NA,F,F,F,F,F,F,F,F,F
+e_fh_ipolity2,Freedom House and Polity2,13,robdv,NA,F,F,F,F,F,F,F,F,F
+democracy,Democracy (Binary),14,robdv,NA,F,F,F,F,F,F,F,F,F
+highcapratio,Disruptive Capacity,15,iv,control,F,T,F,T,F,T,T,T,T
+highcapratio2,Disruptive Capacity (Sq.),16,iv,control,F,F,F,F,F,F,F,F,F
+landlords,Landlord Power,17,iv,control,F,F,T,T,F,T,T,F,F
+landlords2,Landlord Power (Sq.),18,iv,control,F,F,F,F,F,F,F,F,F
+lngdpcap,GDP per capita (Log),19,iv,control,T,F,F,F,F,T,T,F,T
+lngdpcap2,"GDP per capita (Log, Sq.)",20,iv,control,F,F,F,F,F,F,F,F,F
+gdpgr,Growth Rate,21,iv,control,T,F,F,F,F,F,T,F,T
+years.all,Educational Attainment,22,iv,control,T,F,F,F,F,F,T,F,F
+urban02,Urbanity,23,iv,control,T,F,F,F,F,F,T,F,T
+gini.generous,Income Inequality,24,iv,control,F,F,F,F,T,F,T,F,F
+war,War,25,iv,control,F,F,F,F,F,F,F,F,F
+wars_interstate,Interstate War,26,iv,control,F,F,F,F,F,F,F,F,F
+deaths_interstate,War Deaths,27,iv,control,F,F,F,F,F,F,F,F,F
+polity2_regavg,Polity2 Score (Reg. Avg),28,iv,control,F,F,F,F,F,F,F,F,F
+v2x_polyarchy_regavg,Electoral Democracy (Reg. Avg),29,iv,control,F,F,F,F,F,F,F,F,F
+v2x_liberal_regavg,Liberal Dimension (Reg. Avg),30,iv,control,F,F,F,F,F,F,F,F,F
+v2xdl_delib_regavg,Deliberative Dimension (Reg. Avg),31,iv,control,F,F,F,F,F,F,F,F,F
+v2x_partip_regavg,Participatory Dimension (Reg. Avg),32,iv,control,F,F,F,F,F,F,F,F,F
+v2x_egal_regavg,Egalitarian Dimension (Reg. Avg),33,iv,control,F,F,F,F,F,F,F,F,F
+e_fh_ipolity2_regavg,Freedom House and Polity2 (Reg. Avg),34,iv,control,F,F,F,F,F,F,F,F,F
+democracy_regavg,"Democracy (Binary, Reg. Avg)",35,iv,control,F,F,F,F,F,F,F,F,F
+union.density,Union Density,36,uniondv,union,F,F,F,F,F,F,F,F,F
+union.ratio,Union Membership,37,uniondv,union,F,F,F,F,F,F,F,F,F
+union.pcap,Union Members per capita,38,uniondv,union,F,F,F,F,F,F,F,F,F
+frequency,Strike Frequency (LF),39,uniondv,union,F,F,F,F,F,F,F,F,F
+frequency.ratio,Strike Frequency,40,uniondv,union,F,F,F,F,F,F,F,F,F
+frequency.pcap,Strikes per capita,41,uniondv,union,F,F,F,F,F,F,F,F,F
+volume,Strike Volume (LF),42,uniondv,union,F,F,F,F,F,F,F,F,F
+volume.ratio,Strike Volume,43,uniondv,union,F,F,F,F,F,F,F,F,F
+volume.pcap,Strike Volume per capita,44,uniondv,union,F,F,F,F,F,F,F,F,F
+laborrightspos,Labor Rights Index,45,robiv,control,F,F,F,F,F,F,F,F,F
+plp,Potential Labor Power,46,iv,union,F,F,F,F,F,F,F,F,F
+manu_valadd,Manufacturing Share,47,iv,union,F,F,F,F,F,F,F,F,F
+highcaplf,Disruptive Capacity (LF),48,iv,control,F,F,F,F,F,F,F,F,F
+highcap_pcap,Disruptive Capacity (% Pop),49,iv,control,F,F,F,F,F,F,F,F,F
+highcapratio.gov,Disruptive Capacity (w/ Govt),50,iv,control,F,F,F,F,F,F,F,F,F
+ttd,Democratization,51,iv,control,F,F,F,F,F,F,F,F,F
+tta,Democratic Collapse,52,iv,control,F,F,F,F,F,F,F,F,F
+t_dem,Trans. Duration Dependence,53,iv,control,F,F,F,F,F,F,F,F,F
+t_dem2,Trans. Duration Dependence,54,iv,control,F,F,F,F,F,F,F,F,F
+t_dem3,Trans. Duration Dependence,55,iv,control,F,F,F,F,F,F,F,F,F
+t_dic,Cons. Duration Dependence,56,iv,control,F,F,F,F,F,F,F,F,F
+t_dic2,Cons. Duration Dependence,57,iv,control,F,F,F,F,F,F,F,F,F
+t_dic3,Cons. Duration Dependence,58,iv,control,F,F,F,F,F,F,F,F,F
+breakdowns,Democratic Breakdowns,59,iv,control,F,F,F,F,F,F,F,F,F
+colrulername,Colonial Ruler,60,group,control,F,F,F,F,F,F,F,F,F
+decade,Decade,61,group,control,F,F,F,F,F,F,F,F,F

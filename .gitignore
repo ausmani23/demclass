@@ -1,0 +1,9 @@
+#folders
+drafts/
+files/
+output/
+paper/
+presentation/
+
+#and the user file
+.Rproj.user

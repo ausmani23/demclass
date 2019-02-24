@@ -1,0 +1,14 @@
+imagefile,label,caption,loc,order,width
+fig_dcapests.pdf,fig_dcapests,Long-Run Estimate of DCAP on Labor Power,main,1,6in
+fig_prefests.pdf,fig_prefests,"Long-Run Estimates of GDP, DCAP, and LAND",main,2,6in
+fig_brazilgains.pdf,fig_brazilgains,If Brazil Had Not Suffered Late Development,main,3,6in
+fig_devgains.pdf,fig_devgains,If Developing World Had Not Suffered Late Development,main,4,6in
+fig_sample.pdf,fig_sample,Country-Years in Sample,app,5,4in
+fig_robests.pdf,fig_robests,Robustness Checks,app,6,5in
+fig_interactions.pdf,fig_interactions,Estimates from Models with Key Interactions,app,7,5in
+fig_jktile.pdf,fig_jktile,Results from Jackknife Robustness Check,app,8,4.5in
+fig_montecarlo.pdf,fig_montecarlo,Relative Gains from LDV vs. Prais Winstein,app,9,5in
+fig_binmodests.pdf,fig_binmodests,Estimates from Models of Transition and Rollback,app,9,5in
+fig_binmodpreds.pdf,fig_binmodpreds,Predicted 10-Year Probabilities of Transition and Rollback,app,10,5in
+fig_mfit.pdf,fig_mfit,Model Fit Statistics,app,11,5in
+fig_balur.pdf,fig_balur,Unit Root Tests,app,12,5in
