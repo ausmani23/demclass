@@ -7,7 +7,7 @@ presentation/
 
 #and original dataset,
 #prior to cleaning etc.
-data/
+data/*.csv
 
 #and the user file
 .Rproj.user
