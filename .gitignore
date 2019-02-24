@@ -5,5 +5,9 @@ output/
 paper/
 presentation/
 
+#and original dataset,
+#prior to cleaning etc.
+data/demdf_st.csv
+
 #and the user file
 .Rproj.user
