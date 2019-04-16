@@ -16,8 +16,6 @@ To replicate my work, you will need:
 + code: Contains all the R scripts that read data, run the models and generate output
 + data: Contains the starting dataset and country code information
 + meta: Contains .csv's that some of the scripts consult, when running
-+ files: Stores files created by the scripts, as they run
-+ output: Stores output created by the scripts
 
 ## How to use it? 
 
