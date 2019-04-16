@@ -2,10 +2,16 @@ codedir<-getwd()
 setwd('..')
 homedir<-getwd()
 ###
+#these dirs hold inputs
 datadir<-file.path(
   homedir,
   "data"
 )
+metadir<-file.path(
+  homedir,
+  "meta"
+)
+#these dirs hold outputs
 filesdir<-file.path(
   homedir,
   "files"
@@ -14,10 +20,10 @@ outputdir<-file.path(
   homedir,
   "output"
 )
-metadir<-file.path(
-  homedir,
-  "meta"
-)
+#if they haven't already been created,
+#make sure these are created
+dir.create(filesdir,showWarnings=F)
+dir.create(outputdir,showWarnings=F)
 setwd(homedir)
 #also set the gsdir
 #this is the location of your 

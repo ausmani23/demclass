@@ -9,5 +9,9 @@ presentation/
 #prior to cleaning etc.
 data/*.csv
 
+#and *.R files for setup
+code/01_setup.R
+code/02_checkmissing.R
+
 #and the user file
 .Rproj.user
